@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+<div class="result_div">
+    <input id="result" type="text">
+    <button name="equal" class="equal_button" onclick="get_operations('=')">=</button>
+</div>
+<div class="buttons_div">
+    <div>
+        <button name="seven" onclick="get_number(7)">7</button>
+        <button name="eight" onclick="get_number(8)">8</button>
+        <button name="nine" onclick="get_number(9)">9</button>
+        <button name="plus"  onclick="get_operations('+')">+</button>
+    </div>
+    <div>
+        <button name="four" onclick="get_number(4)">4</button>
+        <button name="five" onclick="get_number(5)">5</button>
+        <button name="six" onclick="get_number(6)">6</button>
+        <button name="minus" onclick="get_operations('-')">-</button>
+    </div>
+    <div>
+        <button name="one" onclick="get_number(1)">1</button>
+        <button name="two" onclick="get_number(2)">2</button>
+        <button name="three" onclick="get_number(3)">3</button>
+        <button name="multiply" onclick="get_operations('*')">*</button>
+    </div>
+    <div>
+        <button name="clear" onclick="cClear()">C</button>
+        <button name="null" onclick="get_number(0)">0</button>
+        <button name="fullClear" onclick="fullClear()">AC</button>
+        <button name="divide" onclick="get_operations('/')">/</button>
+    </div>
+</div>
+</body>
+</html>

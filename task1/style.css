@@ -1,0 +1,29 @@
+button {
+    width: 10%;
+    text-align: center;
+    margin: 10px 10px;
+    color: #333;
+    border-radius: 5px;
+    border: 1px solid #000000;
+    font-size: 30px;
+}
+
+button.equal_button{
+    font-size: 30px;
+    padding: 20px;
+}
+input[type=text] {
+    border: 2px solid #000000;
+    width: 37%;
+    padding: 20px 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.result_div{
+    margin: 0 25%;
+}
+.buttons_div{
+    margin: 0 25%;
+}
