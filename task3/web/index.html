@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>main</title>
+	<script type="text/javascript" src="javascript/script.js"></script>
+	<script type="text/javascript" src="javascript/validator.js"></script>
+	<script type="text/javascript" src="javascript/authorizator.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body onload="loadPage('authorization.html')">
+<header id="header">
+	<nav class="menu">
+		<ul>
+			<li><a href="#">Menu 1</a>
+				<ul>
+					<li onclick="SubMenu(1)"><a href="#">Submenu 1</a></li>
+					<li onclick="SubMenu(2)"><a href="#">Submenu 2</a></li>
+					<li onclick="SubMenu(3)"><a href="#">Submenu 3</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Menu 2</a>
+				<ul>
+					<li onclick="SubMenu(4)"><a href="#">Submenu 4</a></li>
+					<li onclick="SubMenu(5)"><a href="#">Submenu 5</a></li>
+					<li onclick="SubMenu(6)"><a href="#">Submenu 6</a></li>
+				</ul>
+			</li>
+			<li><a href="#">Menu 3</a>
+				<ul>
+					<li onclick="showContent('1.html')"><a href="#">Submenu 7</a></li>
+					<li onclick="showContent('2.html')"><a href="#">Submenu 8</a></li>
+					<li onclick="showContent('3.html')"><a href="#">Submenu 9</a></li>
+				</ul>
+			</li>
+		</ul>
+	</nav>
+</header>
+<div id="main_div" class="central_div">
+
+</div>
+<div class="central_div" onclick="chooseAction()">
+	<div id="choosing_field" style="text-align: center; color: white;">Registration</div>
+</div>
+<footer id="footer">&copy; Mihailov A.V.</footer>
+</body>
+</html>

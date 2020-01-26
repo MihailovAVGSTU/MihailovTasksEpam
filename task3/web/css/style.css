@@ -1,0 +1,138 @@
+.central_div {
+    width: 100%;
+    margin: 0 0;
+    padding: 100px 0;
+    background-color: #420003;
+    border-radius: 2px;
+}
+
+#choosing_field {
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    color: rgb(205,216,228);
+    text-shadow: 0 -1px rgb(46,53,58);
+    text-decoration: none;
+    user-select: none;
+    line-height: 2em;
+    padding: 1px 1.2em;
+    outline: none;
+    border: 1px solid rgba(33,43,52,1);
+    border-radius: 3px;
+    background: rgb(81,92,102) linear-gradient(rgb(81,92,102), rgb(69,78,87));
+    box-shadow:
+            inset 0 1px rgba(101,114,126,1),
+            inset 0 0 1px rgba(140,150,170,.8),
+            0 1px rgb(83,94,104),
+            0 0 1px rgb(86,96,106);
+    margin: 0 45%;
+}
+
+input[type=text], select {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 40%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+input[type=password] {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 40%;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+}
+
+input[type=button] {
+    display: inline-block;
+    font-family: arial,sans-serif;
+    font-size: 11px;
+    color: rgb(205,216,228);
+    text-shadow: 0 -1px rgb(46,53,58);
+    text-decoration: none;
+    user-select: none;
+    line-height: 2em;
+    padding: 1px 1.2em;
+    outline: none;
+    border: 1px solid rgba(33,43,52,1);
+    border-radius: 3px;
+    background: rgb(81,92,102) linear-gradient(rgb(81,92,102), rgb(69,78,87));
+    box-shadow:
+            inset 0 1px rgba(101,114,126,1),
+            inset 0 0 1px rgba(140,150,170,.8),
+            0 1px rgb(83,94,104),
+            0 0 1px rgb(86,96,106);
+    margin: 8px 40%;
+}
+
+p {
+    color: #ffcccc;
+    margin: 0px 40%;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+#footer {
+    position: fixed;
+    left: 0; bottom: 0;
+    padding: 20px;
+    background: #420003;
+    color: #fff;
+    width: 100%;
+}
+
+#header {
+    position: fixed;
+    left: 0; top: 0;
+    background: #420003;
+    color: #fff;
+    width: 100%;
+}
+
+.menu ul li{
+    padding: 20px 294px;
+}
+
+.menu ul li, .menu ul{
+    display: inline-block;
+}
+.menu ul{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.menu ul ul{
+    display: none;
+    position: absolute;
+    background-color: #336699;
+    margin-top: 20px;
+    margin-left: -294px;
+}
+
+.menu ul ul li{
+    padding: 20px 282px;
+}
+.menu ul a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu ul ul a{
+    color: #fff;
+    text-decoration: none;
+}
+.menu li:hover ul{
+    display: block;
+}
+
+.menu li:hover li{
+    display: block;
+}
+
+#content {
+    margin: 300px 300px;
+}
